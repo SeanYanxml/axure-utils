@@ -1,0 +1,25 @@
+第一种方式：链接到.CSS地址（需要网络）
+http://at.alicdn.com/t/font_1463732837_2257087.css
+
+
+第二种方式：@font-face代码（需要网络，多浏览器支持）
+
+@font-face {
+  font-family: 'Iaxurefont';
+  src: url(http://at.alicdn.com/t/font_1463732837_010477.eot'); 
+  src: url(http://at.alicdn.com/t/font_1463732837_010477.eot?#iefix') format('embedded-opentype'), 
+  url(http://at.alicdn.com/t/font_1463732837_010477.woff') format('woff'), 
+  url(http://at.alicdn.com/t/font_1463732837_010477.ttf') format('truetype'), 
+  url(http://at.alicdn.com/t/font_1463732837_010477.svg#Iaxurefont') format('svg');
+}
+                    
+
+第三种方式：本地配置代码（将字体文件放在生成的HTML文件夹根目录中）
+@font-face {
+  font-family: 'Iaxurefont';
+  src: url('Iaxurefont.ttf') format('truetype')
+}
+
+本字体由www.iaxure.com原创发布，小楼一夜听春语作品。
+
+              

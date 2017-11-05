@@ -1,0 +1,13 @@
+小楼一夜听春语原创作品，www.iaxure.com独家发布。
+
+注意：使用本元件，需要先安装字体文件。
+
+常见问题：
+
+1、字体文件怎样是安装成功？
+安装字体文件之后打开Axure，从字体列表中能够找到fontawesome即为安装成功。
+
+2、我使用了字体文件，原型发给别人为什么看不到图标？
+解决办法1：对方也安装该字体文件。（无需网络）
+解决办法2：在AxureRP7.0中配置【生成HTML文件】中的【Web字体】设置，添加链接到“.css”文件，URL中填写https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css。（需要网络）
+解决办法3：将字体文件放到生成的HTML文件夹中，设置@font-face实现。（具体方法参考http://www.iaxure.com/1335.html）
